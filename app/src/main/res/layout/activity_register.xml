@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="351dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="182dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_namacust"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/nama"
+        android:inputType="textNoSuggestions"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmailReg"
+        android:layout_width="351dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_emailcust"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress|textNoSuggestions"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNoHP"
+        android:layout_width="351dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="318dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_hpcust"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/nomor_hp"
+        android:inputType="phone|textNoSuggestions"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etPasswordReg"
+        android:layout_width="351dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="386dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_passcust"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword|textNoSuggestions"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivShowHidePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_visibilitynon"
+        app:layout_constraintBottom_toBottomOf="@+id/etPasswordReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="@+id/etPasswordReg"
+        app:layout_constraintTop_toTopOf="@+id/etPasswordReg"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="351dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="532dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/daftar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="65dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="49dp"
+        android:text="Daftar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvSudahPunya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="20dp"
+        android:text="Sudah punya akun Trashure? "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFB" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:text="MASUK"
+        android:textColor="#416188"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSudahPunya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toEndOf="@+id/tvSudahPunya"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/custom_button"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFB"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="215dp"
+        android:background="@drawable/custom_button"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAtauMasukDengan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="612dp"
+        android:text="atau daftar dengan"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

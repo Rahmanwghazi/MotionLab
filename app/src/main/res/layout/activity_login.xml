@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="30dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_emailcust"
+        android:drawablePadding="12dp"
+        android:ems="16"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress|textNoSuggestions"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_passcust"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/ivShowHidePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_visibilitynon"
+        app:layout_constraintBottom_toBottomOf="@+id/etPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="@+id/etPassword"
+        app:layout_constraintTop_toTopOf="@+id/etPassword" />
+
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="30dp"
+        android:text="LUPA PASSWORD?"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/masuk"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="215dp"
+        android:background="@drawable/custom_button"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFB"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/custom_button"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAMD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="612dp"
+        android:text="atau masuk dengan"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBelumPunya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="2dp"
+        android:text="Belum punya akun Trashure? "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvRegister"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="84dp"
+        android:text="DAFTAR "
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvBelumPunya"
+        app:layout_constraintTop_toBottomOf="@+id/btnFB"
+        app:layout_constraintVertical_bias="0.22" />
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="456dp"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Ingat saya"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

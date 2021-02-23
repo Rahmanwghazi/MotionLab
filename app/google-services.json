@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "536861044724",
+    "firebase_url": "https://trashure-6dd7c.firebaseio.com",
+    "project_id": "trashure-6dd7c",
+    "storage_bucket": "trashure-6dd7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536861044724:android:4b6efb8453dc72887a53a1",
+        "android_client_info": {
+          "package_name": "com.example.kotlinfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536861044724-sink6sendaho4q8e0an0nfpspvgpk9ur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-J-VOAFUc1UZnP6hSAq9D8b6eJCEHEj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536861044724-sink6sendaho4q8e0an0nfpspvgpk9ur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

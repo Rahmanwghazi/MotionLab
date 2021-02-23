@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Trashure</string>
+    <string name="image_splashscreen">Image_Splashscreen</string>
+    <string name="email">   Email</string>
+    <string name="masuk">MASUK</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Lupa password?</string>
+    <string name="belum_punya_akun_trashure_daftar">Belum punya akun Trashure?DAFTAR</string>
+    <string name="register">Register</string>
+    <string name="sudah_punya_akun_trashure_masuk">sudah punya akun Trashure? masuk</string>
+    <string name="trashure">Trashure</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="nama">Nama</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="sudah_punya_akun_trashure_masuk2">Sudah punya akun Trashure? MASUK</string>
+    <string name="beranda">Beranda</string>
+    <string name="penukaran">Penukaran</string>
+    <string name="scan">Scan</string>
+    <string name="harga">Harga</string>
+    <string name="akun">Akun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

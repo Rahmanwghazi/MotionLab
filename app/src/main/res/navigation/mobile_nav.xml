@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_nav"
+    app:startDestination="@id/navBeranda">
+
+
+
+    <fragment
+        android:id="@+id/navBeranda"
+        android:name="com.example.kotlinfirstapp.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navPenukaran"
+        android:name="com.example.kotlinfirstapp.PenukaranFragment"
+        android:label=""
+        tools:layout="@layout/fragment_penukaran" />
+    <fragment
+        android:id="@+id/navScan"
+        android:name="com.example.kotlinfirstapp.ScanFragment"
+        android:label=""
+        tools:layout="@layout/fragment_scan" />
+    <fragment
+        android:id="@+id/navHarga"
+        android:name="com.example.kotlinfirstapp.HargaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_harga" />
+    <fragment
+        android:id="@+id/navAkun"
+        android:name="com.example.kotlinfirstapp.AkunFragment"
+        android:label=""
+        tools:layout="@layout/fragment_akun" />
+</navigation>
